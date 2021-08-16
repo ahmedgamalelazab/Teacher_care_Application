@@ -1,0 +1,1 @@
+enum UserUploadEnumsUtils { UploadProfileImage, UploadCoverImage }

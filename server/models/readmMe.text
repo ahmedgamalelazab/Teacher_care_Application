@@ -1,0 +1,15 @@
+# to build a successful sql objects : 
+ - you have to create your tables first in the db using any features 
+ - and after all get a knex connection variable and inject it into Model version out of Objection js 
+ - lastly you have to use this Model out of Objection js and start to extends this model in a table names to convert this table names into objects 
+ - example : 
+   + knex -> build some tables using the migration file 
+   + knex -> inject the data in the tables using the seeds features 
+   + generate a knex connection and store this connection in a variable 
+   + take the connection and require the Model object from the objection lib 
+   + go and export this Objection js Model to have a vision in any file gonna require it later 
+   + go and create a class in a shape of sql table -> generate a Model instead of being only stupid table
+   + lastly you can create a class User extends Model { ... }
+   + in the User Model all what u have to include is static getter calls static get tableName ()
+   + return from this function the table name and it will take this simple stupid table and convert it immediately to object you can use all the queries features on it simple
+   

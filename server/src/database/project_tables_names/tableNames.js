@@ -1,0 +1,23 @@
+module.exports = {
+    account_state: 'account_state',
+    level: 'level',
+    subject: 'subject',
+    governorates_of_Egypt : 'Governorates_of_Egypt',
+    user: 'user',
+    admin: 'admin',
+    moderator: 'moderator',
+    governorates_Municipal_divisions: 'governorates_Municipal_divisions',
+    address: 'address',
+    teacher: 'teacher',
+    teacher_level: 'teacher_level',
+    teacher_subject: 'teacher_subject',
+    room: 'room',
+    student: 'student',
+    parent: 'parent',
+    message: 'message',
+    exam :'exam',
+    question: 'question',
+    student_answer: 'student_answer',
+    student_report: 'student_report',
+    student_level:'student_level'
+}
